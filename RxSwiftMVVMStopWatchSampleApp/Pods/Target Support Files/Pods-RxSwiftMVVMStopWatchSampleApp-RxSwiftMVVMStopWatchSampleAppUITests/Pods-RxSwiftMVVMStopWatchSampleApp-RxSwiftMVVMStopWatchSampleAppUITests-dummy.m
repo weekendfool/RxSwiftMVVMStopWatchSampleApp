@@ -1,0 +1,5 @@
+#import <Foundation/Foundation.h>
+@interface PodsDummy_Pods_RxSwiftMVVMStopWatchSampleApp_RxSwiftMVVMStopWatchSampleAppUITests : NSObject
+@end
+@implementation PodsDummy_Pods_RxSwiftMVVMStopWatchSampleApp_RxSwiftMVVMStopWatchSampleAppUITests
+@end

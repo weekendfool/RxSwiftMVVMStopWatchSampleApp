@@ -1,0 +1,782 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3B8DABB755D827E18707BD2F /* Pods_RxSwiftMVVMStopWatchSampleAppTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 94E0D5156C9D6A0E2DC31581 /* Pods_RxSwiftMVVMStopWatchSampleAppTests.framework */; };
+		8152D7ADBC007AC02677FCED /* Pods_RxSwiftMVVMStopWatchSampleApp_RxSwiftMVVMStopWatchSampleAppUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2777DCE43EA93BE27F18A3E1 /* Pods_RxSwiftMVVMStopWatchSampleApp_RxSwiftMVVMStopWatchSampleAppUITests.framework */; };
+		8C926C2E28414257008512BC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C926C2D28414257008512BC /* AppDelegate.swift */; };
+		8C926C3028414257008512BC /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C926C2F28414257008512BC /* SceneDelegate.swift */; };
+		8C926C3228414257008512BC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C926C3128414257008512BC /* ViewController.swift */; };
+		8C926C3528414257008512BC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8C926C3328414257008512BC /* Main.storyboard */; };
+		8C926C3828414257008512BC /* RxSwiftMVVMStopWatchSampleApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 8C926C3628414257008512BC /* RxSwiftMVVMStopWatchSampleApp.xcdatamodeld */; };
+		8C926C3A28414259008512BC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8C926C3928414259008512BC /* Assets.xcassets */; };
+		8C926C3D28414259008512BC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8C926C3B28414259008512BC /* LaunchScreen.storyboard */; };
+		8C926C482841425A008512BC /* RxSwiftMVVMStopWatchSampleAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C926C472841425A008512BC /* RxSwiftMVVMStopWatchSampleAppTests.swift */; };
+		8C926C522841425A008512BC /* RxSwiftMVVMStopWatchSampleAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C926C512841425A008512BC /* RxSwiftMVVMStopWatchSampleAppUITests.swift */; };
+		8C926C542841425A008512BC /* RxSwiftMVVMStopWatchSampleAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C926C532841425A008512BC /* RxSwiftMVVMStopWatchSampleAppUITestsLaunchTests.swift */; };
+		8C926C612841433E008512BC /* StopWatchViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C926C602841433E008512BC /* StopWatchViewModel.swift */; };
+		B7978951932711586C7D43EC /* Pods_RxSwiftMVVMStopWatchSampleApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 12AA8A7677A31B121D2FBB0D /* Pods_RxSwiftMVVMStopWatchSampleApp.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8C926C442841425A008512BC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8C926C2228414257008512BC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8C926C2928414257008512BC;
+			remoteInfo = RxSwiftMVVMStopWatchSampleApp;
+		};
+		8C926C4E2841425A008512BC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8C926C2228414257008512BC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8C926C2928414257008512BC;
+			remoteInfo = RxSwiftMVVMStopWatchSampleApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0B4B1D4F7DE1F813B16AB0B2 /* Pods-RxSwiftMVVMStopWatchSampleApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RxSwiftMVVMStopWatchSampleApp.release.xcconfig"; path = "Target Support Files/Pods-RxSwiftMVVMStopWatchSampleApp/Pods-RxSwiftMVVMStopWatchSampleApp.release.xcconfig"; sourceTree = "<group>"; };
+		10A540B04951BC1DA96B56BC /* Pods-RxSwiftMVVMStopWatchSampleAppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RxSwiftMVVMStopWatchSampleAppTests.release.xcconfig"; path = "Target Support Files/Pods-RxSwiftMVVMStopWatchSampleAppTests/Pods-RxSwiftMVVMStopWatchSampleAppTests.release.xcconfig"; sourceTree = "<group>"; };
+		12AA8A7677A31B121D2FBB0D /* Pods_RxSwiftMVVMStopWatchSampleApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RxSwiftMVVMStopWatchSampleApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2777DCE43EA93BE27F18A3E1 /* Pods_RxSwiftMVVMStopWatchSampleApp_RxSwiftMVVMStopWatchSampleAppUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RxSwiftMVVMStopWatchSampleApp_RxSwiftMVVMStopWatchSampleAppUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8C926C2A28414257008512BC /* RxSwiftMVVMStopWatchSampleApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RxSwiftMVVMStopWatchSampleApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8C926C2D28414257008512BC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		8C926C2F28414257008512BC /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		8C926C3128414257008512BC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		8C926C3428414257008512BC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8C926C3728414257008512BC /* RxSwiftMVVMStopWatchSampleApp.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = RxSwiftMVVMStopWatchSampleApp.xcdatamodel; sourceTree = "<group>"; };
+		8C926C3928414259008512BC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8C926C3C28414259008512BC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8C926C3E28414259008512BC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8C926C432841425A008512BC /* RxSwiftMVVMStopWatchSampleAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RxSwiftMVVMStopWatchSampleAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8C926C472841425A008512BC /* RxSwiftMVVMStopWatchSampleAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RxSwiftMVVMStopWatchSampleAppTests.swift; sourceTree = "<group>"; };
+		8C926C4D2841425A008512BC /* RxSwiftMVVMStopWatchSampleAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RxSwiftMVVMStopWatchSampleAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8C926C512841425A008512BC /* RxSwiftMVVMStopWatchSampleAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RxSwiftMVVMStopWatchSampleAppUITests.swift; sourceTree = "<group>"; };
+		8C926C532841425A008512BC /* RxSwiftMVVMStopWatchSampleAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RxSwiftMVVMStopWatchSampleAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		8C926C602841433E008512BC /* StopWatchViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StopWatchViewModel.swift; sourceTree = "<group>"; };
+		94E0D5156C9D6A0E2DC31581 /* Pods_RxSwiftMVVMStopWatchSampleAppTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RxSwiftMVVMStopWatchSampleAppTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A1EF4EE719BEA46089312517 /* Pods-RxSwiftMVVMStopWatchSampleApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RxSwiftMVVMStopWatchSampleApp.debug.xcconfig"; path = "Target Support Files/Pods-RxSwiftMVVMStopWatchSampleApp/Pods-RxSwiftMVVMStopWatchSampleApp.debug.xcconfig"; sourceTree = "<group>"; };
+		B1B9D0BB149E357CD637C89A /* Pods-RxSwiftMVVMStopWatchSampleApp-RxSwiftMVVMStopWatchSampleAppUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RxSwiftMVVMStopWatchSampleApp-RxSwiftMVVMStopWatchSampleAppUITests.debug.xcconfig"; path = "Target Support Files/Pods-RxSwiftMVVMStopWatchSampleApp-RxSwiftMVVMStopWatchSampleAppUITests/Pods-RxSwiftMVVMStopWatchSampleApp-RxSwiftMVVMStopWatchSampleAppUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		C9840759828AB816D2BC6789 /* Pods-RxSwiftMVVMStopWatchSampleApp-RxSwiftMVVMStopWatchSampleAppUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RxSwiftMVVMStopWatchSampleApp-RxSwiftMVVMStopWatchSampleAppUITests.release.xcconfig"; path = "Target Support Files/Pods-RxSwiftMVVMStopWatchSampleApp-RxSwiftMVVMStopWatchSampleAppUITests/Pods-RxSwiftMVVMStopWatchSampleApp-RxSwiftMVVMStopWatchSampleAppUITests.release.xcconfig"; sourceTree = "<group>"; };
+		E904CA977323AFA55738177A /* Pods-RxSwiftMVVMStopWatchSampleAppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RxSwiftMVVMStopWatchSampleAppTests.debug.xcconfig"; path = "Target Support Files/Pods-RxSwiftMVVMStopWatchSampleAppTests/Pods-RxSwiftMVVMStopWatchSampleAppTests.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8C926C2728414257008512BC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B7978951932711586C7D43EC /* Pods_RxSwiftMVVMStopWatchSampleApp.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8C926C402841425A008512BC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3B8DABB755D827E18707BD2F /* Pods_RxSwiftMVVMStopWatchSampleAppTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8C926C4A2841425A008512BC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8152D7ADBC007AC02677FCED /* Pods_RxSwiftMVVMStopWatchSampleApp_RxSwiftMVVMStopWatchSampleAppUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		24FA17B6A32AEFFC415988F7 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A1EF4EE719BEA46089312517 /* Pods-RxSwiftMVVMStopWatchSampleApp.debug.xcconfig */,
+				0B4B1D4F7DE1F813B16AB0B2 /* Pods-RxSwiftMVVMStopWatchSampleApp.release.xcconfig */,
+				B1B9D0BB149E357CD637C89A /* Pods-RxSwiftMVVMStopWatchSampleApp-RxSwiftMVVMStopWatchSampleAppUITests.debug.xcconfig */,
+				C9840759828AB816D2BC6789 /* Pods-RxSwiftMVVMStopWatchSampleApp-RxSwiftMVVMStopWatchSampleAppUITests.release.xcconfig */,
+				E904CA977323AFA55738177A /* Pods-RxSwiftMVVMStopWatchSampleAppTests.debug.xcconfig */,
+				10A540B04951BC1DA96B56BC /* Pods-RxSwiftMVVMStopWatchSampleAppTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		8C926C2128414257008512BC = {
+			isa = PBXGroup;
+			children = (
+				8C926C2C28414257008512BC /* RxSwiftMVVMStopWatchSampleApp */,
+				8C926C462841425A008512BC /* RxSwiftMVVMStopWatchSampleAppTests */,
+				8C926C502841425A008512BC /* RxSwiftMVVMStopWatchSampleAppUITests */,
+				8C926C2B28414257008512BC /* Products */,
+				24FA17B6A32AEFFC415988F7 /* Pods */,
+				A0C3D6E1F67C557425325179 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		8C926C2B28414257008512BC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8C926C2A28414257008512BC /* RxSwiftMVVMStopWatchSampleApp.app */,
+				8C926C432841425A008512BC /* RxSwiftMVVMStopWatchSampleAppTests.xctest */,
+				8C926C4D2841425A008512BC /* RxSwiftMVVMStopWatchSampleAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8C926C2C28414257008512BC /* RxSwiftMVVMStopWatchSampleApp */ = {
+			isa = PBXGroup;
+			children = (
+				8C926C2D28414257008512BC /* AppDelegate.swift */,
+				8C926C2F28414257008512BC /* SceneDelegate.swift */,
+				8C926C3128414257008512BC /* ViewController.swift */,
+				8C926C602841433E008512BC /* StopWatchViewModel.swift */,
+				8C926C3328414257008512BC /* Main.storyboard */,
+				8C926C3928414259008512BC /* Assets.xcassets */,
+				8C926C3B28414259008512BC /* LaunchScreen.storyboard */,
+				8C926C3E28414259008512BC /* Info.plist */,
+				8C926C3628414257008512BC /* RxSwiftMVVMStopWatchSampleApp.xcdatamodeld */,
+			);
+			path = RxSwiftMVVMStopWatchSampleApp;
+			sourceTree = "<group>";
+		};
+		8C926C462841425A008512BC /* RxSwiftMVVMStopWatchSampleAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				8C926C472841425A008512BC /* RxSwiftMVVMStopWatchSampleAppTests.swift */,
+			);
+			path = RxSwiftMVVMStopWatchSampleAppTests;
+			sourceTree = "<group>";
+		};
+		8C926C502841425A008512BC /* RxSwiftMVVMStopWatchSampleAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				8C926C512841425A008512BC /* RxSwiftMVVMStopWatchSampleAppUITests.swift */,
+				8C926C532841425A008512BC /* RxSwiftMVVMStopWatchSampleAppUITestsLaunchTests.swift */,
+			);
+			path = RxSwiftMVVMStopWatchSampleAppUITests;
+			sourceTree = "<group>";
+		};
+		A0C3D6E1F67C557425325179 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				12AA8A7677A31B121D2FBB0D /* Pods_RxSwiftMVVMStopWatchSampleApp.framework */,
+				2777DCE43EA93BE27F18A3E1 /* Pods_RxSwiftMVVMStopWatchSampleApp_RxSwiftMVVMStopWatchSampleAppUITests.framework */,
+				94E0D5156C9D6A0E2DC31581 /* Pods_RxSwiftMVVMStopWatchSampleAppTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8C926C2928414257008512BC /* RxSwiftMVVMStopWatchSampleApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8C926C572841425A008512BC /* Build configuration list for PBXNativeTarget "RxSwiftMVVMStopWatchSampleApp" */;
+			buildPhases = (
+				ACD6EAA631C20C36FF828333 /* [CP] Check Pods Manifest.lock */,
+				8C926C2628414257008512BC /* Sources */,
+				8C926C2728414257008512BC /* Frameworks */,
+				8C926C2828414257008512BC /* Resources */,
+				42BD9A1C455B1FB5704F597D /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RxSwiftMVVMStopWatchSampleApp;
+			productName = RxSwiftMVVMStopWatchSampleApp;
+			productReference = 8C926C2A28414257008512BC /* RxSwiftMVVMStopWatchSampleApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8C926C422841425A008512BC /* RxSwiftMVVMStopWatchSampleAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8C926C5A2841425A008512BC /* Build configuration list for PBXNativeTarget "RxSwiftMVVMStopWatchSampleAppTests" */;
+			buildPhases = (
+				1E8C132362BF326A792085A7 /* [CP] Check Pods Manifest.lock */,
+				8C926C3F2841425A008512BC /* Sources */,
+				8C926C402841425A008512BC /* Frameworks */,
+				8C926C412841425A008512BC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8C926C452841425A008512BC /* PBXTargetDependency */,
+			);
+			name = RxSwiftMVVMStopWatchSampleAppTests;
+			productName = RxSwiftMVVMStopWatchSampleAppTests;
+			productReference = 8C926C432841425A008512BC /* RxSwiftMVVMStopWatchSampleAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		8C926C4C2841425A008512BC /* RxSwiftMVVMStopWatchSampleAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8C926C5D2841425A008512BC /* Build configuration list for PBXNativeTarget "RxSwiftMVVMStopWatchSampleAppUITests" */;
+			buildPhases = (
+				3B4BE88C02150F7DBD8BA154 /* [CP] Check Pods Manifest.lock */,
+				8C926C492841425A008512BC /* Sources */,
+				8C926C4A2841425A008512BC /* Frameworks */,
+				8C926C4B2841425A008512BC /* Resources */,
+				888A9B364E254658511CEFAC /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8C926C4F2841425A008512BC /* PBXTargetDependency */,
+			);
+			name = RxSwiftMVVMStopWatchSampleAppUITests;
+			productName = RxSwiftMVVMStopWatchSampleAppUITests;
+			productReference = 8C926C4D2841425A008512BC /* RxSwiftMVVMStopWatchSampleAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8C926C2228414257008512BC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1330;
+				LastUpgradeCheck = 1330;
+				TargetAttributes = {
+					8C926C2928414257008512BC = {
+						CreatedOnToolsVersion = 13.3.1;
+					};
+					8C926C422841425A008512BC = {
+						CreatedOnToolsVersion = 13.3.1;
+						TestTargetID = 8C926C2928414257008512BC;
+					};
+					8C926C4C2841425A008512BC = {
+						CreatedOnToolsVersion = 13.3.1;
+						TestTargetID = 8C926C2928414257008512BC;
+					};
+				};
+			};
+			buildConfigurationList = 8C926C2528414257008512BC /* Build configuration list for PBXProject "RxSwiftMVVMStopWatchSampleApp" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8C926C2128414257008512BC;
+			productRefGroup = 8C926C2B28414257008512BC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8C926C2928414257008512BC /* RxSwiftMVVMStopWatchSampleApp */,
+				8C926C422841425A008512BC /* RxSwiftMVVMStopWatchSampleAppTests */,
+				8C926C4C2841425A008512BC /* RxSwiftMVVMStopWatchSampleAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8C926C2828414257008512BC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8C926C3D28414259008512BC /* LaunchScreen.storyboard in Resources */,
+				8C926C3A28414259008512BC /* Assets.xcassets in Resources */,
+				8C926C3528414257008512BC /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8C926C412841425A008512BC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8C926C4B2841425A008512BC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1E8C132362BF326A792085A7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-RxSwiftMVVMStopWatchSampleAppTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3B4BE88C02150F7DBD8BA154 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-RxSwiftMVVMStopWatchSampleApp-RxSwiftMVVMStopWatchSampleAppUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		42BD9A1C455B1FB5704F597D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-RxSwiftMVVMStopWatchSampleApp/Pods-RxSwiftMVVMStopWatchSampleApp-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-RxSwiftMVVMStopWatchSampleApp/Pods-RxSwiftMVVMStopWatchSampleApp-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-RxSwiftMVVMStopWatchSampleApp/Pods-RxSwiftMVVMStopWatchSampleApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		888A9B364E254658511CEFAC /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-RxSwiftMVVMStopWatchSampleApp-RxSwiftMVVMStopWatchSampleAppUITests/Pods-RxSwiftMVVMStopWatchSampleApp-RxSwiftMVVMStopWatchSampleAppUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-RxSwiftMVVMStopWatchSampleApp-RxSwiftMVVMStopWatchSampleAppUITests/Pods-RxSwiftMVVMStopWatchSampleApp-RxSwiftMVVMStopWatchSampleAppUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-RxSwiftMVVMStopWatchSampleApp-RxSwiftMVVMStopWatchSampleAppUITests/Pods-RxSwiftMVVMStopWatchSampleApp-RxSwiftMVVMStopWatchSampleAppUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		ACD6EAA631C20C36FF828333 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-RxSwiftMVVMStopWatchSampleApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8C926C2628414257008512BC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8C926C3228414257008512BC /* ViewController.swift in Sources */,
+				8C926C2E28414257008512BC /* AppDelegate.swift in Sources */,
+				8C926C612841433E008512BC /* StopWatchViewModel.swift in Sources */,
+				8C926C3028414257008512BC /* SceneDelegate.swift in Sources */,
+				8C926C3828414257008512BC /* RxSwiftMVVMStopWatchSampleApp.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8C926C3F2841425A008512BC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8C926C482841425A008512BC /* RxSwiftMVVMStopWatchSampleAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8C926C492841425A008512BC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8C926C542841425A008512BC /* RxSwiftMVVMStopWatchSampleAppUITestsLaunchTests.swift in Sources */,
+				8C926C522841425A008512BC /* RxSwiftMVVMStopWatchSampleAppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8C926C452841425A008512BC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8C926C2928414257008512BC /* RxSwiftMVVMStopWatchSampleApp */;
+			targetProxy = 8C926C442841425A008512BC /* PBXContainerItemProxy */;
+		};
+		8C926C4F2841425A008512BC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8C926C2928414257008512BC /* RxSwiftMVVMStopWatchSampleApp */;
+			targetProxy = 8C926C4E2841425A008512BC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8C926C3328414257008512BC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8C926C3428414257008512BC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8C926C3B28414259008512BC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8C926C3C28414259008512BC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8C926C552841425A008512BC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8C926C562841425A008512BC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8C926C582841425A008512BC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A1EF4EE719BEA46089312517 /* Pods-RxSwiftMVVMStopWatchSampleApp.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4VA5NBL27P;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = RxSwiftMVVMStopWatchSampleApp/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.gmail.tukareta.nori.RxSwiftMVVMStopWatchSampleApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8C926C592841425A008512BC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0B4B1D4F7DE1F813B16AB0B2 /* Pods-RxSwiftMVVMStopWatchSampleApp.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4VA5NBL27P;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = RxSwiftMVVMStopWatchSampleApp/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.gmail.tukareta.nori.RxSwiftMVVMStopWatchSampleApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		8C926C5B2841425A008512BC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E904CA977323AFA55738177A /* Pods-RxSwiftMVVMStopWatchSampleAppTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4VA5NBL27P;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.gmail.tukareta.nori.RxSwiftMVVMStopWatchSampleAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RxSwiftMVVMStopWatchSampleApp.app/RxSwiftMVVMStopWatchSampleApp";
+			};
+			name = Debug;
+		};
+		8C926C5C2841425A008512BC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 10A540B04951BC1DA96B56BC /* Pods-RxSwiftMVVMStopWatchSampleAppTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4VA5NBL27P;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.gmail.tukareta.nori.RxSwiftMVVMStopWatchSampleAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RxSwiftMVVMStopWatchSampleApp.app/RxSwiftMVVMStopWatchSampleApp";
+			};
+			name = Release;
+		};
+		8C926C5E2841425A008512BC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B1B9D0BB149E357CD637C89A /* Pods-RxSwiftMVVMStopWatchSampleApp-RxSwiftMVVMStopWatchSampleAppUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4VA5NBL27P;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.gmail.tukareta.nori.RxSwiftMVVMStopWatchSampleAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = RxSwiftMVVMStopWatchSampleApp;
+			};
+			name = Debug;
+		};
+		8C926C5F2841425A008512BC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C9840759828AB816D2BC6789 /* Pods-RxSwiftMVVMStopWatchSampleApp-RxSwiftMVVMStopWatchSampleAppUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4VA5NBL27P;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.gmail.tukareta.nori.RxSwiftMVVMStopWatchSampleAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = RxSwiftMVVMStopWatchSampleApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8C926C2528414257008512BC /* Build configuration list for PBXProject "RxSwiftMVVMStopWatchSampleApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8C926C552841425A008512BC /* Debug */,
+				8C926C562841425A008512BC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8C926C572841425A008512BC /* Build configuration list for PBXNativeTarget "RxSwiftMVVMStopWatchSampleApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8C926C582841425A008512BC /* Debug */,
+				8C926C592841425A008512BC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8C926C5A2841425A008512BC /* Build configuration list for PBXNativeTarget "RxSwiftMVVMStopWatchSampleAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8C926C5B2841425A008512BC /* Debug */,
+				8C926C5C2841425A008512BC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8C926C5D2841425A008512BC /* Build configuration list for PBXNativeTarget "RxSwiftMVVMStopWatchSampleAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8C926C5E2841425A008512BC /* Debug */,
+				8C926C5F2841425A008512BC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		8C926C3628414257008512BC /* RxSwiftMVVMStopWatchSampleApp.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				8C926C3728414257008512BC /* RxSwiftMVVMStopWatchSampleApp.xcdatamodel */,
+			);
+			currentVersion = 8C926C3728414257008512BC /* RxSwiftMVVMStopWatchSampleApp.xcdatamodel */;
+			path = RxSwiftMVVMStopWatchSampleApp.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 8C926C2228414257008512BC /* Project object */;
+}

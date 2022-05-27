@@ -1,0 +1,6 @@
+framework module Pods_RxSwiftMVVMStopWatchSampleApp_RxSwiftMVVMStopWatchSampleAppUITests {
+  umbrella header "Pods-RxSwiftMVVMStopWatchSampleApp-RxSwiftMVVMStopWatchSampleAppUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
