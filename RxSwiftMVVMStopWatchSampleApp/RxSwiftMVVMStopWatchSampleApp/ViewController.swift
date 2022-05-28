@@ -6,6 +6,8 @@
 //
 
 import UIKit
+import RxSwift
+import RxCocoa
 
 class ViewController: UIViewController {
     
@@ -14,6 +16,8 @@ class ViewController: UIViewController {
     @IBOutlet weak var timerLabel: UILabel!
     @IBOutlet weak var startStopButton: UIButton!
     @IBOutlet weak var resetButton: UIButton!
+    
+    private var viewModel: StopWatchViewModel
     
     
     // MARK: - ライフサイクル
@@ -24,7 +28,19 @@ class ViewController: UIViewController {
 
 
     // MARK: - 関数
+    init (viewModel: StopWatchViewModel) {
+        self.viewModel = viewModel
+        super.init(nibName: nil, bundle: nil)
+    }
     
+    required init?(coder: NSCoder) {
+        fatalError("init(coder:) has not been implemented")
+    }
+    
+    // それぞれの部品をバインドする
+    func bind() {
+        
+    }
     
 }
 
