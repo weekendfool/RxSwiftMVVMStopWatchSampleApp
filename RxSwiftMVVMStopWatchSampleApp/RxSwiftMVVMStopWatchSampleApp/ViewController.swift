@@ -17,7 +17,8 @@ class ViewController: UIViewController {
     @IBOutlet weak var startStopButton: UIButton!
     @IBOutlet weak var resetButton: UIButton!
     
-    private var viewModel: StopWatchViewModel2Type
+    private lazy var viewModel: StopWatchViewModel2Type = StopWatchViewModel2()
+    
     private var disposeBag = DisposeBag()
     
     
@@ -26,22 +27,24 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
         
-//        bind()
+        bind()
+        viewModel.input.isPauseTimer.accept(false)
     }
 
 
     // MARK: - 関数
-    init (viewModel: StopWatchViewModel2Type) {
-        self.viewModel = viewModel
-        super.init(nibName: nil, bundle: nil)
-    }
-    
-    required init?(coder: NSCoder) {
-        fatalError("init(coder:) has not been implemented")
-    }
+//    init(viewModel: StopWatchViewModel2Type) {
+//
+//        super.init(nibName: nil, bundle: nil)
+//    }
+//
+//    required init?(coder: NSCoder) {
+//        fatalError("init(coder:) has not been implemented")
+//    }
     
     // それぞれの部品をバインドする
     func bind() {
+//        self.viewModel = viewModel
         // startbuttonのタップをシグナルとしてイベント発火
         startStopButton.rx.tap.asSignal()
             // 加工する: 値の合成　viewModel.isTimerWorkedの値を合成する
