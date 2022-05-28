@@ -20,6 +20,7 @@
 		8C926C522841425A008512BC /* RxSwiftMVVMStopWatchSampleAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C926C512841425A008512BC /* RxSwiftMVVMStopWatchSampleAppUITests.swift */; };
 		8C926C542841425A008512BC /* RxSwiftMVVMStopWatchSampleAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C926C532841425A008512BC /* RxSwiftMVVMStopWatchSampleAppUITestsLaunchTests.swift */; };
 		8C926C612841433E008512BC /* StopWatchViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C926C602841433E008512BC /* StopWatchViewModel.swift */; };
+		8C926C632842901D008512BC /* StopWatchViewModel2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C926C622842901D008512BC /* StopWatchViewModel2.swift */; };
 		B7978951932711586C7D43EC /* Pods_RxSwiftMVVMStopWatchSampleApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 12AA8A7677A31B121D2FBB0D /* Pods_RxSwiftMVVMStopWatchSampleApp.framework */; };
 /* End PBXBuildFile section */
 
@@ -60,6 +61,7 @@
 		8C926C512841425A008512BC /* RxSwiftMVVMStopWatchSampleAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RxSwiftMVVMStopWatchSampleAppUITests.swift; sourceTree = "<group>"; };
 		8C926C532841425A008512BC /* RxSwiftMVVMStopWatchSampleAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RxSwiftMVVMStopWatchSampleAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		8C926C602841433E008512BC /* StopWatchViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StopWatchViewModel.swift; sourceTree = "<group>"; };
+		8C926C622842901D008512BC /* StopWatchViewModel2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StopWatchViewModel2.swift; sourceTree = "<group>"; };
 		94E0D5156C9D6A0E2DC31581 /* Pods_RxSwiftMVVMStopWatchSampleAppTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RxSwiftMVVMStopWatchSampleAppTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A1EF4EE719BEA46089312517 /* Pods-RxSwiftMVVMStopWatchSampleApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RxSwiftMVVMStopWatchSampleApp.debug.xcconfig"; path = "Target Support Files/Pods-RxSwiftMVVMStopWatchSampleApp/Pods-RxSwiftMVVMStopWatchSampleApp.debug.xcconfig"; sourceTree = "<group>"; };
 		B1B9D0BB149E357CD637C89A /* Pods-RxSwiftMVVMStopWatchSampleApp-RxSwiftMVVMStopWatchSampleAppUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RxSwiftMVVMStopWatchSampleApp-RxSwiftMVVMStopWatchSampleAppUITests.debug.xcconfig"; path = "Target Support Files/Pods-RxSwiftMVVMStopWatchSampleApp-RxSwiftMVVMStopWatchSampleAppUITests/Pods-RxSwiftMVVMStopWatchSampleApp-RxSwiftMVVMStopWatchSampleAppUITests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -137,6 +139,7 @@
 				8C926C2F28414257008512BC /* SceneDelegate.swift */,
 				8C926C3128414257008512BC /* ViewController.swift */,
 				8C926C602841433E008512BC /* StopWatchViewModel.swift */,
+				8C926C622842901D008512BC /* StopWatchViewModel2.swift */,
 				8C926C3328414257008512BC /* Main.storyboard */,
 				8C926C3928414259008512BC /* Assets.xcassets */,
 				8C926C3B28414259008512BC /* LaunchScreen.storyboard */,
@@ -413,6 +416,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8C926C3228414257008512BC /* ViewController.swift in Sources */,
+				8C926C632842901D008512BC /* StopWatchViewModel2.swift in Sources */,
 				8C926C2E28414257008512BC /* AppDelegate.swift in Sources */,
 				8C926C612841433E008512BC /* StopWatchViewModel.swift in Sources */,
 				8C926C3028414257008512BC /* SceneDelegate.swift in Sources */,
